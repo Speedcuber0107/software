@@ -1,1 +1,69 @@
 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi primera página junior</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #6ab04c; /* Fondo verde */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    color: #fff; /* Texto blanco */
+  }
+  
+  .img-container {
+    display: inline-block;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Evita que el borde se desborde */
+  }
+  
+  .img-container img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .img-container.large img {
+    max-width: 600px; /* Aumenta aún más el ancho máximo para la segunda imagen */
+  }
+  
+  .img-container:hover img {
+    transform: scale(1.1);
+  }
+</style>
+</head>
+<body>
+<h1>Hola Mundo!</h1>
+<h2>Esta es mi página</h2>
+<div class="img-container" style="border: 5px solid #393939;">
+  <img src="https://static.wikia.nocookie.net/onepiece/images/4/42/Roronoa_Zoro_Manga_Post_Timeskip_Infobox.png/revision/latest?cb=20230403220027" alt="Roronoa Zoro Manga Post Timeskip" />
+</div>
+<div class="img-container large" style="border: 5px solid #d3a625;">
+  <img src="https://www.animeexplained.com/wp-content/uploads/2023/01/one-piece-zoro-1278854-1280x0-1.jpeg" alt="One Piece Zoro" />
+</div>
+<div class="img-container" style="border: 5px solid #b53b3b;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_cMbpyvU6z2FMJlA7p8QO7vYo7OVz9KeLvg&usqp=CAU" alt="Imagen 3" />
+</div>
+<div class="img-container" style="border: 5px solid #1e3a49;">
+  <img src="https://www.stickerni.tn/wp-content/uploads/2022/01/zoro-one-piece.png" alt="Zoro One Piece" />
+</div>
+<div class="img-container" style="border: 5px solid #ff0000;">
+  <img src="https://w7.pngwing.com/pngs/418/931/png-transparent-roronoa-zoro-monkey-d-luffy-one-piece-treasure-cruise-one-piece-unlimited-adventure-portgas-d-ace-one-piece-manga-piracy-cartoon.png" alt="Roronoa Zoro" />
+</div>
+</body>
+</html>
